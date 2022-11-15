@@ -1,0 +1,33 @@
+
+.body{
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+section{
+    border:  solid 1px;
+}
+
+.spássía{
+    padding: 10px 15px 10px 15px;
+}
+
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+@media screen and (min-width:48em) 
+{
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (min-width:60em) 
+{
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+}
