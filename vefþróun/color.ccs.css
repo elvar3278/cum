@@ -1,0 +1,26 @@
+.einn-til-hliðar{
+    margin-left: 30px;
+}
+.rauður{
+    color:red
+}
+.ljós-blár{
+    color:aqua
+}
+
+.grænn{
+    color:green
+}
+.fjólublár{
+    color:purple
+}
+
+body{
+    border: 15px dotted violet;
+    margin: 50px;
+    padding: 15px;
+}
+
+.undirstrik{
+    text-decoration:underline;
+}
