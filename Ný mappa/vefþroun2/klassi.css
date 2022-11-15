@@ -1,0 +1,167 @@
+/*
+  ========================================
+  Box-sizing
+  ========================================
+*/
+*{
+    box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.borði{
+    border: 3px solid red;
+}
+
+.spássía{
+    padding: 10px 15px 10px 15px;
+}
+
+.margina{
+    margin: 10px;
+}
+
+.margina2{
+    margin: 50px;
+}
+
+.borði2{
+    border: 2px solid brown;
+}
+
+.borði3{
+    border: 7px dashed yellowgreen;
+}
+
+.spássía2{
+    padding:20px 35px 20px 20px;
+}
+
+.listi1 li{
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: dashed greenyellow 3px;
+}
+
+
+.dalkur-2{
+    float:left;
+    width: 50%;
+}
+
+div{
+    flex-grow: 1;
+}
+
+div{
+    border: 1px solid;
+}
+
+.row{
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+.box {
+    font-size: 1.2em;
+	height: 5em;
+}
+
+.imgR{
+    float: right;
+}
+
+.stuff{
+    float: left;
+}
+
+.ex1 {
+    display: none;
+}
+
+.ex2 {
+    display: inline;
+}
+
+.ex3 {
+    display: block;
+}
+
+.ex4 {
+    display: inline-block;
+}
+
+.listi2 li{
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed blue;
+    
+}
+
+.listi3 li{
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;
+}
+
+.dalkur-3{
+    width: 100%;
+    }
+
+.midtext{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.midtext2{
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
