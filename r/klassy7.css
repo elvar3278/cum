@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    background-color: red;
+}
+
+
+h1{
+    font-family:Jurassic park;
+    font-size: 45px;
+    color: rgb(255, 183, 0);
+   } 
+
+h1,h2,h3,h4{
+    color: rgb(255, 153, 0);
+}
+
+html, body{
+    height: 100%;
+}
+
+html { 
+    background: url(comp.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+body{
+    margin: 0%;
+
+
+
+    
+}
+p{
+    color: rgb(216, 173, 16)
+}
+
+.arrow{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    font-size: 240%;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(89, 255, 0);
+   }
+
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.border2{
+    border: 2px solid;
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+
+.center2{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.center{
+    max-width: 55%;
+    margin: 0 auto;
+
+}
+
+.container3{
+    padding: 15px 2%;
+    align-items: center;
+    background-color: rgb(0, 0, 0) ;
+    color: rgb(255, 153, 0);
+    justify-content: space-around;
+    display: flex;
+}
+
+.stuff{
+    align-items: center;
+}
+
+@media screen and (min-width:35.7em)  {
+    
+}
+    .dalkar{
+        display: flex;
+        flex-flow: column;
+
+}
+
